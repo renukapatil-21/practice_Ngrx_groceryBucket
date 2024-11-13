@@ -1,0 +1,6 @@
+<div class="bucket-container">
+  <h1>My Bucket</h1>
+  <li class="bucket-item" *ngFor="let item of myBucket$ | async">
+    {{item.name}} x {{item.quantity}}
+  </li>
+</div>
